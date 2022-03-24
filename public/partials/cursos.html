@@ -4,8 +4,10 @@
     <h2 class="text-center">Lista de cursos</h2>
 </div>
 
-<p ng-show="mensagem.texto">{{mensagem.texto}}</p>
 
+<!--
+<p ng-show="mensagem.texto">{{mensagem.texto}}</p>
+//-->
 
 <nav class="navbar navbar-expand navbar-dark bg-dark">
 
@@ -28,7 +30,9 @@
 
 <button class="btn btn-primary" ng-click='incrementa()'>Novo</button>
 
+<!--
 <p ng-show="cursos.length">Cursos cadastrados: {{cursos.length}}</p>
+//-->
 <p class="text-info" ng-hide="cursos.length">Não há cursos cadastrados</p>
 
 <div class="table-responsive">
