@@ -19,7 +19,7 @@ angular.module('ifsp').controller('CursosController',
         buscaCursos();
         $scope.remove = function(curso) {
             console.log(curso);
-            Contato.delete({ id: curso._id },
+            Curso.delete({ id: curso._id },
                            buscaCursos,
                            function(erro) {
                                 console.log("Não foi possível remover o curso"};
