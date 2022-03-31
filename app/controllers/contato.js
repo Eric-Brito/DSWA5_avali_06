@@ -1,3 +1,5 @@
+var ID_CONTATO_INC = 3;
+
 var contatos = [
     { _id: 1, nome: 'Fabio Teixeira', email: 'fabio.teixeira@ifsp.edu.br' },
     { _id: 2, nome: 'Fabiano Teixeira', email: 'fabiano.teixeira@ifsp.edu.br' },
