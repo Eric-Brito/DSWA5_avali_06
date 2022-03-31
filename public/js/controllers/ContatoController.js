@@ -22,5 +22,5 @@ angular.module('ifsp').controller('ContatoController',
                 .catch(function(erro) {
                     $scope.mensagem = {texto: 'Não foi possível salvar'};
                 });         
-            }
+            };
     });
