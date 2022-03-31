@@ -13,9 +13,9 @@ angular.module('ifsp', ['ngRoute', 'ngResource']).config(function($routeProvider
 	$routeProvider.when('/contato/:contatoId', {
     	templateUrl: 'partials/contato.html', 
     	controller: 'ContatoController'
-    });
+         });
 
-    $routeProvider.when('/cursos', {
+        $routeProvider.when('/cursos', {
 		templateUrl: 'partials/cursos.html',
 		controller: 'CursosController'
 	});
@@ -23,9 +23,10 @@ angular.module('ifsp', ['ngRoute', 'ngResource']).config(function($routeProvider
 	$routeProvider.when('/curso/:cursoId', {
     	templateUrl: 'partials/curso.html', 
     	controller: 'CursoController'
-    });   
+         });   
 
 
-    $routeProvider.otherwise({redirectTo: '/contatos'});
+        $routeProvider.otherwise({redirectTo: '/contatos'});
 
 });
+
